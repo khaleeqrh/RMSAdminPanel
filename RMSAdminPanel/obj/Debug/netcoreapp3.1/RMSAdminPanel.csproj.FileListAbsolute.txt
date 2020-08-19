@@ -21,3 +21,17 @@ E:\Freelancing\RMS\AdminPanel\RMSAdminPanel\RMSAdminPanel\obj\Debug\netcoreapp3.
 E:\Freelancing\RMS\AdminPanel\RMSAdminPanel\RMSAdminPanel\obj\Debug\netcoreapp3.1\RMSAdminPanel.RazorTargetAssemblyInfo.cs
 E:\Freelancing\RMS\AdminPanel\RMSAdminPanel\RMSAdminPanel\obj\Debug\netcoreapp3.1\staticwebassets\RMSAdminPanel.StaticWebAssets.Manifest.cache
 E:\Freelancing\RMS\AdminPanel\RMSAdminPanel\RMSAdminPanel\obj\Debug\netcoreapp3.1\staticwebassets\RMSAdminPanel.StaticWebAssets.xml
+E:\Freelancing\RMS\AdminPanel\RMSAdminPanel\RMSAdminPanel\bin\Debug\netcoreapp3.1\RMSAdminPanel.deps.json
+E:\Freelancing\RMS\AdminPanel\RMSAdminPanel\RMSAdminPanel\bin\Debug\netcoreapp3.1\RMSAdminPanel.runtimeconfig.json
+E:\Freelancing\RMS\AdminPanel\RMSAdminPanel\RMSAdminPanel\bin\Debug\netcoreapp3.1\RMSAdminPanel.runtimeconfig.dev.json
+E:\Freelancing\RMS\AdminPanel\RMSAdminPanel\RMSAdminPanel\bin\Debug\netcoreapp3.1\RMSAdminPanel.dll
+E:\Freelancing\RMS\AdminPanel\RMSAdminPanel\RMSAdminPanel\bin\Debug\netcoreapp3.1\RMSAdminPanel.pdb
+E:\Freelancing\RMS\AdminPanel\RMSAdminPanel\RMSAdminPanel\bin\Debug\netcoreapp3.1\RMSAdminPanel.Views.dll
+E:\Freelancing\RMS\AdminPanel\RMSAdminPanel\RMSAdminPanel\bin\Debug\netcoreapp3.1\RMSAdminPanel.Views.pdb
+E:\Freelancing\RMS\AdminPanel\RMSAdminPanel\RMSAdminPanel\obj\Debug\netcoreapp3.1\RMSAdminPanel.csproj.CoreCompileInputs.cache
+E:\Freelancing\RMS\AdminPanel\RMSAdminPanel\RMSAdminPanel\obj\Debug\netcoreapp3.1\RMSAdminPanel.MvcApplicationPartsAssemblyInfo.cache
+E:\Freelancing\RMS\AdminPanel\RMSAdminPanel\RMSAdminPanel\obj\Debug\netcoreapp3.1\RMSAdminPanel.Views.pdb
+E:\Freelancing\RMS\AdminPanel\RMSAdminPanel\RMSAdminPanel\obj\Debug\netcoreapp3.1\RMSAdminPanel.dll
+E:\Freelancing\RMS\AdminPanel\RMSAdminPanel\RMSAdminPanel\obj\Debug\netcoreapp3.1\RMSAdminPanel.pdb
+E:\Freelancing\RMS\AdminPanel\RMSAdminPanel\RMSAdminPanel\obj\Debug\netcoreapp3.1\RMSAdminPanel.genruntimeconfig.cache
+E:\Freelancing\RMS\AdminPanel\RMSAdminPanel\RMSAdminPanel\obj\Debug\netcoreapp3.1\RMSAdminPanel.csproj.CopyComplete
