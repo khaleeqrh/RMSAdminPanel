@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
-<html>
-<!--dir="rtl"-->
+<html
+dir="rtl">
 <head>
     <meta charset="utf-8" />
     <title></title>
@@ -9,179 +9,69 @@
     <link href="~\wwwroot\css\bootstrap.css" rel="stylesheet" />
     <link href="~\wwwroot\css\bootstrap-reboot.css" rel="stylesheet" />
     <link href="~\wwwroot\css\bootstrap-grid.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <style>
-        body,
-        html {
-            height: 100%;
-            margin: auto;
+        body {
+            font-family: "Lato", sans-serif;
         }
 
-        #mendatory::after {
-            content: " *";
-            color: red;
-        }
-
-        .sidebar {
+        .sidenav {
             height: 100%;
-            width: 0;
+            width: 250px;
             position: fixed;
             z-index: 1;
             top: 0;
             left: 0;
             background-color: #111;
             overflow-x: hidden;
-            transition: 0.5s;
-            padding-top: 60px;
-        }
-
-        .form-control {
-            margin: 5px;
-        }
-
-        .sidebar a {
-            padding: 8px 8px 8px 32px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-            transition: 0.5s;
-        }
-
-            .sidebar a:hover {
-                color: #f1f1f1;
-            }
-
-        .sidebar .closebtn {
-            position: absolute;
-            top: 0;
-            right: 25px;
-            font-size: 36px;
-            margin-left: 50px;
-        }
-
-        .openbtn {
-            font-size: 20px;
-            cursor: pointer;
-            background-color: #111;
-            color: white;
-            padding: 10px 15px;
-            border: none;
-        }
-
-            .openbtn:hover {
-                background-color: #444;
-            }
-
-        #main {
-            transition: margin-left .5s;
-            padding: 16px;
-        }
-        /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-
-        @media screen and (max-height: 450px) {
-            .sidebar {
-                padding-top: 15px;
-            }
-
-                .sidebar a {
-                    font-size: 18px;
-                }
-        }
-
-        #menu-outer {
-            height: 34px;
-            background: #f1f1f1;
-        }
-
-        .table {
-            display: table; /* Allow the centering to work */
-            margin: 0 auto;
-        }
-
-        ul#horizontal-list {
-            min-width: 696px;
-            list-style: none;
             padding-top: 20px;
         }
 
-        .container {
-            border: 1px solid #f1f1f1;
+            .sidenav a {
+                padding: 6px 8px 6px 16px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #818181;
+                display: block;
+            }
+
+                .sidenav a:hover {
+                    color: #f1f1f1;
+                }
+
+        .main {
+            margin-left: 160px; /* Same as the width of the sidenav */
+            font-size: 28px; /* Increased text to enable scrolling */
+            padding: 0px 10px;
         }
 
-        li {
-            padding: 10px;
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+                .sidenav a {
+                    font-size: 18px;
+                }
         }
     </style>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-inverse">
-
-
-        <div id="navbar" class="container-fluid">
-            <div class="navbar-header">
-                <button id="sidebar-button" class="openbtn" onclick="openNav(); return false;">☰</button>
-            </div>
-            <!--<div class="navbar-header">
-
-
-
-                <a class="navbar-brand" href="#">Manage Policies </a>
-            </div>-->
-        </div>
-    </nav>
-    <div id="mySidebar" class="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times</a>
-        <ul class="collapse list-unstyled" style="list-style:none;" id="SystemSettings">
-            <li><a href="Employeelist.aspx"> DashBoard</a></li>
-            <li><a href="Contracts.aspx"> Orders </a></li>
-            <li><a href="Transfers.aspx"> Products </a></li>
-            <li><a href="Resignations.aspx"> Offers </a></li>
-            <li><a href="Performance.aspx"> Order Tracking </a></li>
-            <li><a href="Promotions.aspx"> Settings </a></li>
-            <li><a href="Increments.aspx"> Logout</a></li>
-
-        </ul>
-
-
-
-
+    <div class="sidenav">
+        <a href="#about">DashBoard</a>
+        <a href="#services">Orders</a>
+        <a href="#clients">Products</a>
+        <a href="#contact">Offers</a>
+        <a href="#">Order Tracking</a>
+        <a href="#">Settings</a>
+        <a href="#">Logout</a>
     </div>
 
-    <div id="divpolicytypes" class="container">
-        <div class="form-group">
-
-        </div>
-
-
-    </div>
-    <script>
-        var navbarstatus = "close";
-
-        function openNav() {
-            if (navbarstatus == "close") {
-                document.getElementById("mySidebar").style.width = "250px";
-                document.getElementById("navbar").style.marginLeft = "250px";
-                document.getElementById("navbar").style.marginLeft = "250px";
-                document.getElementById("divpolicytypes").style.marginLeft = "255px";
-                document.getElementById("sidebar-button").style.display = "block";
-                navbarstatus = "open";
-            } else if (navbarstatus == "open") {
-                document.getElementById("mySidebar").style.width = "0";
-                document.getElementById("divpolicytypes").style.marginLeft = "auto";
-                document.getElementById("navbar").style.marginLeft = "0";
-                navbarstatus = "close"
-            }
-        }
-
-        function closeNav() {
-            document.getElementById("mySidebar").style.width = "0";
-            document.getElementById("navbar").style.marginLeft = "0";
-            document.getElementById("divpolicytypes").style.marginLeft = "auto";
-            navbarstatus = "close"
-        }
-    </script>
 </body>
 
 </html>
